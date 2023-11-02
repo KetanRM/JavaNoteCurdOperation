@@ -1,0 +1,7 @@
+CREATE TABLE `servlet`.`java_notes`
+(
+    notes_id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    notes_title VARCHAR(100) NOT NULL,
+    notes TEXT,
+    DATE DATETIME
+);
